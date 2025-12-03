@@ -32,8 +32,9 @@ const Footer = () => {
       </div>
 
       <p>
-        Made with <FontAwesomeIcon icon={faHeart} className="fa-heart" /> by SSK
-      </p>
+        Made with <FontAwesomeIcon icon={faHeart} className="fa-heart" /> by
+        Arffy Technologies
+      </p>  
     </section>
   );
 };

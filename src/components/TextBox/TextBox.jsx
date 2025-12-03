@@ -5,10 +5,11 @@ import "./TextBox.css";
 const TextBox = () => {
   return (
     <div className="text-box">
-      <h1>World&apos;s Biggest University</h1>
+      <h1>Arffy International CBSE School</h1>
       <p>
-        Making website is now one of the easiest thing in the world. You just
-        need to learn HTML, CSS, <br /> JavaScript and you are good to go.
+        Empowering students with strong academics, discipline, and values. We
+        aim to create a nurturing environment where every child can learn, grow,
+        and succeed.
       </p>
       <Link to="/" className="hero-btn">
         Visit us To Know More

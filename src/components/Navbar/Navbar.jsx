@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
-import logo from "/images/logo.png";
+//import logo from "/images/logo.png";
+import logo from "/images/arffy_logo.png";
 
 const Navbar = () => {
   const navLinkRef = useRef();
@@ -24,9 +25,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav style={{ maxHeight: "100px" }}>
       <Link to="/">
-        <img src={logo} alt="" />
+        <img style={{ height: "150px", width: "200px" }} src={logo} alt="" />
       </Link>
 
       <div className="nav-links" id="navLinks" ref={navLinkRef}>

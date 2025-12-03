@@ -12,8 +12,8 @@ const ContactComponent = () => {
             <div>
               <FontAwesomeIcon icon={faHome} className="icon" />
               <span>
-                <h5>GT Road, Gulzar Group Of Institutes</h5>
-                <p>Ludhiana, Punjab, IN</p>
+                <h5>Kamarajar Puram, Idaikal</h5>
+                <p>Tenkasi, Tamil Nadu 627804</p>
               </span>
             </div>
 
@@ -28,7 +28,7 @@ const ContactComponent = () => {
             <div>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
               <span>
-                <h5>info@eduford.com</h5>
+                <h5>arffytechnologies@arffy.com</h5>
                 <p>Email us Your query</p>
               </span>
             </div>
